@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>토글버튼만들기</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    아 ㅈㄴ짜 짜증난다 에러 어디서나는거야 자꾸 ㅡㅡ
+    <br>
+    죽을래 ??? 안보이잖아
+    <br>
+    에러야 빨리 나와야 덜 혼난다 ^_^
+
+    <input id="버튼이름" type="button" value="어둡게" onclick="
+    if  (document.querySelector('#버튼이름').value === '어둡게')
+    { document.querySelector('body').style.backgroundColor = 'black';
+      document.querySelector('body').style.color ='white';
+      document.querySelector('#버튼이름').value = '밝게';
+    }
+    else
+    { document.querySelector('body').style.backgroundColor = 'white';
+      document.querySelector('body').style.color ='black';
+      document.querySelector('#버튼이름').value = '어둡게';
+    }
+    ">
+  </body>
+</html>
